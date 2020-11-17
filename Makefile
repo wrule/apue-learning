@@ -12,3 +12,6 @@ copyer-std: src/copyer/main-std.c
 getpid: src/getpid/main.c
 	gcc -o main src/getpid/main.c
 	./main
+taskmgr: src/taskmgr/main.c
+	gcc -o main src/taskmgr/main.c
+	./main
