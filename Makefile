@@ -9,3 +9,6 @@ copyer-std: src/copyer/main-std.c
 	rm 1.txt
 	gcc -o main src/copyer/main-std.c
 	./main >> 1.txt
+getpid: src/getpid/main.c
+	gcc -o main src/getpid/main.c
+	./main
