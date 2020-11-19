@@ -15,3 +15,6 @@ getpid: src/getpid/main.c
 myshell: src/myshell/main.c
 	gcc -o main src/myshell/main.c
 	./main
+forker: src/forker/main.c
+	gcc -o main src/forker/main.c
+	./main
