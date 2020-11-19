@@ -18,3 +18,6 @@ myshell: src/myshell/main.c
 forker: src/forker/main.c
 	gcc -o main src/forker/main.c
 	./main
+myshellx: src/myshellx/main.c
+	gcc -o main src/myshellx/main.c
+	./main
